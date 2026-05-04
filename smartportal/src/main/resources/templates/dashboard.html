@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Admin Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Admin Dashboard</h2>
+
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-3">
+            <div class="card bg-primary text-white shadow">
+                <div class="card-body">
+                    <h5>Total Complaints</h5>
+                    <h2 th:text="${total}"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card bg-warning text-dark shadow">
+                <div class="card-body">
+                    <h5>Pending Complaints</h5>
+                    <h2 th:text="${pending}"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card bg-success text-white shadow">
+                <div class="card-body">
+                    <h5>Resolved Complaints</h5>
+                    <h2 th:text="${resolved}"></h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="/admin/complaints" class="btn btn-dark">
+            View All Complaints
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
