@@ -64,6 +64,11 @@ Online-Complaint-System/
 ## 📸 Screenshots
 
 *Screenshots will be added soon.*
+<img width="640" height="555" alt="image" src="https://github.com/user-attachments/assets/c6874cd0-6091-4701-b107-195606289822" />
+<img width="512" height="312" alt="image" src="https://github.com/user-attachments/assets/5d742f23-1ae0-4c68-a27e-1bc9462378a0" />
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/748b8547-4cf1-4d81-a5b9-a25a41dd7a24" />
+
+
 
 ---
 
