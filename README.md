@@ -11,7 +11,7 @@ A web-based application designed to manage and track user complaints efficiently
 * 📊 Complaint Tracking System
 * 🛠 Admin Dashboard
 * 📁 Complaint History Management
-* 🔎 Status Updates (Pending / In Progress / Resolved)
+* 🔎 Status Updates (Pending / In Progress / Resolved).
 
 ---
 
@@ -92,6 +92,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License..
 
 ---
